@@ -1,0 +1,19 @@
+*{
+    background-color: #1E1E1E;
+}
+#menu{
+    height: 700px;
+    width: 80px;
+    text-align: center;
+}
+#arrieremenu{
+    height: 700px;
+    width: 80px;
+    background: white;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+.logoc{
+    position:absolute;
+    width: 70px;
+}
