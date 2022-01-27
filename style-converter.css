@@ -1,18 +1,13 @@
-*{
-    background-color: #1E1E1E;
-}
 #menu{
-    height: 700px;
+    height: 100%;
     width: 80px;
     text-align: center;
     position: absolute;
-}
-#arrieremenu{
-    height: 820px;
-    width: 80px;
-    background: white;
-    border-radius: 20px;
+    background: #cccccc;
+    top: 0%;
+    left: 0%;
+    border-right: solid #a3a3a3;
 }
 .logoc{
-    width: 70px;
+    width: 70px ;
 }
