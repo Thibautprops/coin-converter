@@ -27,13 +27,8 @@
     
 }
 
-.align-vcenter{
-    height: 100vh;
-    -webkit-box-align: center;
-    -webkit-box-pack: center; 
-    display: -webkit-box;
-}
-.boite-deco{
+
+.boite-generale{
     width: 550px;
     height: 150px;
     background-color: grey;
@@ -42,4 +37,28 @@
     margin-right: auto;
     border-radius: 40px;
    margin-top: -400px;
+   opacity: 0.7;
+}
+.align-vcenter{
+    height: 100vh;
+    -webkit-box-align: center;
+    -webkit-box-pack: center; 
+    display: -webkit-box;
+    
+}
+.boite1{
+    width: 180px;
+    height: 75px;
+    background-color: white;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.boite2{
+    width: 180px;
+    height: 75px;
+    background-color: white;
+    border-radius: 40px;
+
 }
