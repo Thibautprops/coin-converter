@@ -4,7 +4,6 @@ button {
   border: none !important;
   font-size:0;
 }
-
 #menu{
   height: 100%;
   width: 80px;
@@ -23,60 +22,50 @@ button {
   top: 0%;
   left: 0%;
   margin-left: 80px;
-  list-style:none;
+  display: none;
 }
-
 .logoc{
-    width: 70px;
+  width: 70px;
 }
 .imgfond{
-    margin-left: auto;
-    margin-right: auto;
-    display: block; 
-    display: table-cell;
-
-   
-    
-    border-right: 0px;
-    border-left: 0px;
-    
+  margin-left: auto;
+  margin-right: auto;
+  display: block; 
+  display: table-cell;
+  border-right: 0px;
+  border-left: 0px;
 }
-
-
-.boite-generale{
-    width: 550px;
-    height: 150px;
-    background-color: grey;
-    opacity: 20;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-   margin-top: -400px;
-   opacity: 0.7;
+#boite-generale{
+  width: 550px;
+  height: 150px;
+  background-color: grey;
+  opacity: 20;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  margin-top: -400px;
+  opacity: 0.7;
 }
-.align-vcenter{
-    height: 100vh;
-    -webkit-box-align: center;
-    -webkit-box-pack: center; 
-    display: -webkit-box;
-    
+#img-center{
+  height: 100vh;
+  -webkit-box-align: center;
+  -webkit-box-pack: center; 
+  display: -webkit-box;
 }
-.boite1{
-    width: 180px;
-    height: 75px;
-    background-color: white;
-    border-radius: 40px;
-    margin-left: auto;
-    margin-right: auto;
-
+#boite1{
+  width: 180px;
+  height: 75px;
+  background-color: white;
+  border-radius: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.boite2{
-    width: 180px;
-    height: 75px;
-    background-color: white;
-    border-radius: 40px;
-
-
+#boite2{
+  width: 180px;
+  height: 75px;
+  background-color: white;
+  border-radius: 40px;
+}
 #hide div{
   height: 70px;
   font-size: 30px;

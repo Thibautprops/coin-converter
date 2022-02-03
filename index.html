@@ -23,10 +23,10 @@
         <script>
             function show() {
                 var div = document.getElementById("hide");
-                if (div.style.display === "none") {
-                    div.style.display = "block";
-                } else {
+                if (div.style.display === "block") {
                     div.style.display = "none";
+                } else {
+                    div.style.display = "block";
                 }
             }
         </script>
@@ -44,15 +44,11 @@
         <div><a href="#">Dogecoin</a></div>
         <div><a href="#">Matic Network</a></div>
     </div>
-
-    <div class="align-vcenter"><img src="image/Bitcoin.png" alt="Bitcoin" title="Bitcoin" class="imgfond"></div>
-    <div class="boite-generale"></div>
-    <div class="boite1"></div>
-    <div class="boite2"></div>
-
-
-
-
-
+    <div id="converter">
+        <div id="img-center"><img src="image/Bitcoin.png" alt="Bitcoin" title="Bitcoin" class="imgfond"></div>
+        <div id="boite-generale"></div>
+        <div id="boite1"></div>
+        <div id="boite2"></div>
+    </div>
 </body>
 </html>
