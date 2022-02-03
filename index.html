@@ -7,9 +7,10 @@
     <title>Bitcoin</title>
     <link rel="stylesheet" href="style-converter.css">
 </head>
-<body style="background-color: #1E1E1E;">
+<body style="background-color:#e7e7e7;">
     <div id="menu">
-        <a><img src="image/Bitcoin.png" class="logoc"></a>
+        <button onclick="show()"><a href="#"><img src="image/menu.png" class="logoc"></a></button>
+        <a href="index.html"><img src="image/Bitcoin.png" id="bitcoin"class="logoc"></a>
         <a><img src="image/Ethereum.png" class="logoc"></a>
         <a><img src="image/Tether.png" class="logoc"></a>
         <a><img src="image/Binance Coin.png" class="logoc"></a>
@@ -18,12 +19,37 @@
         <a><img src="image/Ripple.png" class="logoc"></a>
         <a><img src="image/LUNA.png" class="logoc"></a>
         <a><img src="image/Dogecoin.png" class="logoc"></a>
-        <a><img src="image/Matic Network.png" class="logoc"></a>
+        <a><img src="https://via.placeholder.com/70" class="logoc"></a>
+        <script>
+            function show() {
+                var div = document.getElementById("hide");
+                if (div.style.display === "none") {
+                    div.style.display = "block";
+                } else {
+                    div.style.display = "none";
+                }
+            }
+        </script>
     </div>
+    <div id="hide">
+        <div>Menu</div>
+        <div><a href="#">Bitcoin</a></div>
+        <div><a href="#">Ethereum</a></div>
+        <div><a href="#">Tether</a></div>
+        <div><a href="#">Binance Coin</a></div>
+        <div><a href="#">USD Coin</a></div>
+        <div><a href="#">Carnado</a></div>
+        <div><a href="#">Ripple</a></div>
+        <div><a href="#">LUNA</a></div>
+        <div><a href="#">Dogecoin</a></div>
+        <div><a href="#">Matic Network</a></div>
+    </div>
+
     <div class="align-vcenter"><img src="image/Bitcoin.png" alt="Bitcoin" title="Bitcoin" class="imgfond"></div>
     <div class="boite-generale"></div>
     <div class="boite1"></div>
     <div class="boite2"></div>
+
 
 
 
