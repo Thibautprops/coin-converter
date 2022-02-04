@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitcoin</title>
-    <link rel="stylesheet" href="style-converter.css">
+    <link type="text/css" rel="stylesheet" href="style-converter.css">
 </head>
 <body style="background-color:#e7e7e7;">
     <div id="menu">
         <button onclick="show()"><a href="#"><img src="image/menu.png" class="logoc"></a></button>
-        <a href="index.html"><img src="image/Bitcoin.png" id="bitcoin"class="logoc"></a>
+        <a href="index.html"><img src="image/Bitcoin.png" class="logoc"></a>
         <a><img src="image/Ethereum.png" class="logoc"></a>
         <a><img src="image/Tether.png" class="logoc"></a>
         <a><img src="image/Binance Coin.png" class="logoc"></a>
@@ -19,17 +19,7 @@
         <a><img src="image/Ripple.png" class="logoc"></a>
         <a><img src="image/LUNA.png" class="logoc"></a>
         <a><img src="image/Dogecoin.png" class="logoc"></a>
-        <a><img src="https://via.placeholder.com/70" class="logoc"></a>
-        <script>
-            function show() {
-                var div = document.getElementById("hide");
-                if (div.style.display === "block") {
-                    div.style.display = "none";
-                } else {
-                    div.style.display = "block";
-                }
-            }
-        </script>
+        <a><img src="image/Matic Network.png" class="logoc"></a>
     </div>
     <div id="hide">
         <div>Menu</div>
@@ -55,3 +45,13 @@
         </div>
 </body>
 </html>
+<script>
+    function show() {
+        var div = document.getElementById("hide");
+        if (div.style.display === "block") {
+            div.style.display = "none";
+        } else {
+            div.style.display = "block";
+        }
+    }
+</script>
