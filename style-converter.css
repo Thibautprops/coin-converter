@@ -1,15 +1,16 @@
+
 button {
   background: transparent;
   border: none !important;
   font-size:0;
 }
 .logoc{
-  width: 90%;
-	height: auto;
+  width: 40px;
+	height: 40px;
 }
 #menu{
   height: 100%;
-  width: 4%;
+  width: 45px;
   text-align: center;
   position: absolute;
   background: #cccccc;
@@ -17,89 +18,60 @@ button {
   left: 0%;
   border-right: solid #a3a3a3;
 }
-#hide{
-  display: none;
-}
-#list{
-  height: 100%;
-  width: 4%;
-  position: absolute;
-  background-color: #a3a3a3;
-  top: 0%;
-  left: 0%;
-  margin-left: 4%;
-}
-#list div{
-  width: 90%;
-	height: auto;
-}
-.elem{
-  width: 90%;
-	height: auto;
-}
 .imgfond{
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
   display: block; 
   display: table-cell;
-  /* border-right: 0px;
-  border-left: 0px; */
-  
-  position: absolute;
-  z-index: 2;
-  
-  
+  border-right: 0px;
+  border-left: 0px;
 }
-.boite-generale{
+#boite-generale{
   width: 550px;
   height: 150px;
   background-color: grey;
   opacity: 20;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 40px;
+  margin-top: -400px;
   opacity: 0.7;
-  /* -webkit-box-align: center;
-  -webkit-box-pack: center; 
-  display: -webkit-box; */
-  z-index: 1;
-  position: absolute;
 }
 #img-center{
-   
+  height: 100vh;
   -webkit-box-align: center;
   -webkit-box-pack: center; 
-  display: -webkit-box; 
-  border:red solid 3px;
-  height: 100%;
-  width: 94%;
-  top: 0%;
-  right: 0%;
-  position: fixed;
-  /* bottom: 0;
-  padding: 0%;
-  margin: 0%;
-  top: 0; */
+  display: -webkit-box;
 }
 #boite1{
   width: 180px;
   height: 75px;
-  background-color: black;
+  background-color: white;
   border-radius: 40px;
-  margin: 150px;
-  position: relative;
-  top:21%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #boite2{
   width: 180px;
   height: 75px;
   background-color: white;
-  border-radius: 40px; 
+  border-radius: 40px;
 }
-#hide div{
-  height: 70px;
+#hide{
+  display: none;
+}
+#list{
+  height: 100%;
+  width: 185px;
+  position: absolute;
+  background-color: #a3a3a3;
+  top: 0%;
+  left: 0%;
+  margin-left: 48px;
+  font-family: ;
+}
+#list div{
+  height: 44px;
   font-size: 30px;
-  padding-top:3.5px ;
+  
 }
-.logoc{
-  width: 70px ;
