@@ -44,19 +44,18 @@ button {
   display: table-cell;
   /* border-right: 0px;
   border-left: 0px; */
-  
-  position: absolute;
+  /* position: absolute; */
   z-index: 2;
-  
-  
+  width: 45%;
+  height: auto;
+
 }
 .boite-generale{
-  width: 550px;
-  height: 150px;
+  width: 50.926%;
+  height: 27.778%;
   background-color: grey;
-  opacity: 20;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 40px;
   opacity: 0.7;
   /* -webkit-box-align: center;
@@ -64,13 +63,13 @@ button {
   display: -webkit-box; */
   z-index: 1;
   position: absolute;
+  bottom: 10%;
 }
 #img-center{
    
   -webkit-box-align: center;
   -webkit-box-pack: center; 
   display: -webkit-box; 
-  border:red solid 3px;
   height: 100%;
   width: 94%;
   top: 0%;
