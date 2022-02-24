@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitcoin</title>
     <link rel="stylesheet" href="style-converter.css">
-    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="icon" type="image/png" href="image/Bitcoin.png" />
 </head>
 <body style="background-color:#e7e7e7;">
     <button onclick="show()"> 
@@ -33,7 +33,7 @@
         var menu = document.getElementById("menu");
         if (menu.style.display === "block") {
             menu.style.animationName = "hide";
-            setTimeout(display, 300) ;
+            setTimeout(display, 300);
         } else {
             menu.style.display = "block";
         }
@@ -41,5 +41,6 @@
     function display() {
         var menu = document.getElementById("menu");
         menu.style.display = "none";
+        menu.style.animationName = "show";
     }
 </script>
