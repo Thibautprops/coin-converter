@@ -6,37 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitcoin</title>
     <link rel="stylesheet" href="style-converter.css">
+    <link rel="icon" type="image/png" href="logo.png" />
 </head>
 <body style="background-color:#e7e7e7;">
     <button onclick="show()"> 
         </a href="#"><img src="image/menu.png" class="buttonmenu"><a></a>
     </button>
-    <div id="hide">
-        <div id="menu">
-            <div id="imgmenu">
-                <a href="#"><img src="image/Bitcoin.png" class="logoc" alt="Bitcoin logo"></a>
-                <a href="#"><img src="image/Ethereum.png" class="logoc" alt="Ethereum logo"></a>
-                <a href="#"><img src="image/Tether.png" class="logoc" alt="Tether logo"></a>
-                <a href="#"><img src="image/Binance Coin.png" class="logoc" alt="Binance Coin logo"></a>
-                <a href="#"><img src="image/USD Coin.png" class="logoc" alt="USD Coin logo"></a>
-                <a href="#"><img src="image/Carnado.png" class="logoc" alt="Carnado logo"></a>
-                <a href="#"><img src="image/Ripple.png" class="logoc" alt="Ripple logo"></a>
-                <a href="#"><img src="image/LUNA.png" class="logoc" alt="Luna logo"></a>
-                <a href="#"><img src="image/Dogecoin.png" class="logoc" alt="Dogecoin logo"></a>
-                <a href="#"><img src="image/Matic Network.png" class="logoc" alt="Matic Network logo"></a>
-            </div>
+    <div id="menu">
+        <div id="imgmenu">
+            <a href="#"><img src="image/Bitcoin.png" class="logoc" alt="Bitcoin logo"></a>
+            <a href="#"><img src="image/Ethereum.png" class="logoc" alt="Ethereum logo"></a>
+            <a href="#"><img src="image/Tether.png" class="logoc" alt="Tether logo"></a>
+            <a href="#"><img src="image/Binance Coin.png" class="logoc" alt="Binance Coin logo"></a>
+            <a href="#"><img src="image/USD Coin.png" class="logoc" alt="USD Coin logo"></a>
+            <a href="#"><img src="image/Carnado.png" class="logoc" alt="Carnado logo"></a>
+            <a href="#"><img src="image/Ripple.png" class="logoc" alt="Ripple logo"></a>
+            <a href="#"><img src="image/LUNA.png" class="logoc" alt="Luna logo"></a>
+            <a href="#"><img src="image/Dogecoin.png" class="logoc" alt="Dogecoin logo"></a>
+            <a href="#"><img src="image/Matic Network.png" class="logoc" alt="Matic Network logo"></a>
         </div>
     </div>
 </body>
 </html>
 <script>
     function show() {
-        var div = document.getElementById("hide");
-        if (div.style.display === "block") {
-            div.style.display = "none";
+        var menu = document.getElementById("menu");
+        if (menu.style.display === "block") {
+            menu.style.animationName = "hide";
+            setTimeout(display, 300) ;
         } else {
-            div.style.display = "block";
+            menu.style.display = "block";
         }
     }
+    function display() {
+        var menu = document.getElementById("menu");
+        menu.style.display = "none";
+    }
 </script>
-<!-- https://www.web-eau.net/blog/15-effets-css3-pour-vos-images -->

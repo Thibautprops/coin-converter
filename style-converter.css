@@ -1,5 +1,5 @@
 button {
-  background: gray;
+  background: #888888;
   border: none !important;
   border-radius: 10px;
   height: 4%;
@@ -10,19 +10,20 @@ button {
   width: 100%;
   height: auto;
 }
-#hide{
-  display: none;
-}
 #menu{
-  height: 88%;
+  height: auto;
   width: 5%;
   position: absolute;
-  background-color: #a3a3a3;
-  bottom: 2%;
+  margin-top: 1%;
+  bottom: auto;
   left: 0%;
+  background-color: #a3a3a3;
   border-radius: 20px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
+  display: none;
+  animation-name: show;
+  animation-duration: 0.3s;
 }
 #imgmenu{
   margin-top: 10%;
@@ -39,4 +40,20 @@ button {
 .logoc:hover{
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
+}
+@keyframes show {
+  from{
+    margin-left: -5% ;
+  }
+  to{
+    margin-left: 0%;
+  }
+}
+@keyframes hide {
+  from{
+    margin-left: 0% ;
+  }
+  to{
+    margin-left: -5%;
+  }
 }
